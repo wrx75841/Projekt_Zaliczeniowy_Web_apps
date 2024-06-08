@@ -1,8 +1,1 @@
-Django>=3.2,<4.0
-pytz==2021.1
-sqlparse==0.4.1
-djangorestframework-3.15.1
-
-
-
-#https://www.youtube.com/watch?v=VV202Rydafc
+Django==3.2.8
