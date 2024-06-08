@@ -6,7 +6,7 @@ from .models import Cities
 city = "London" 
 
 def weather_app(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=0cddd18021fa8eec7083483450f705da'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid='trzeba dodac api key'
     weather_data = []
     cities_list = Cities.objects.all()
     
